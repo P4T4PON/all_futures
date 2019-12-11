@@ -1,0 +1,21 @@
+@import './configs';
+
+.nav {
+  background-color: $orange;
+  color: $black;
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 1rem;
+  z-index: 1;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  cursor: pointer;
+}
